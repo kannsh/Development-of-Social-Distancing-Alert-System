@@ -1,3 +1,6 @@
+# MUST READ
+OpenVINO 2018 R5 Toolkit must be installed to start this project. 
+
 # Development-of-Social-Distancing-Alert-System
 This project uses Homography transform and OpenVINO Pedestrian Tracker Demo. Homography transform will be used to map image/video points to its corresponding real world points on the same image/video.
 
@@ -38,3 +41,4 @@ https://stackoverflow.com/questions/25769707/camera-pixels-to-planar-world-point
 
 getPerspectiveTransform Source Code (Courtesy of OpenCV Dev)
 https://github.com/opencv/opencv/blob/master/modules/imgproc/src/imgwarp.cpp
+
