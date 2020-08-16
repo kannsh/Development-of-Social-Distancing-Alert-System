@@ -1,0 +1,6 @@
+591 276 1897 494 1672 924 110 480 0 0 1420 0 1380 800 0 800
+
+// This represents the imagecorner and worldcorner (X and Y) coordinates as shown:
+// imagecorner_x1,y1 ... imagecorner_x4,y4 > worldcorner_x1,y1 ... worldcorner_x4,y4
+
+
