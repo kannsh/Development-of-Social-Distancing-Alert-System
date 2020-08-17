@@ -1,0 +1,27 @@
+** Running the demo
+
+** Ensure openvino environment has been activated
+
+1. Place the following inside this directory : 
+
+ homography.h IN opt/intel/computer_vision_sdk_18.5.445/inference_engine/samples/pedestrian_tracker_demo/includes
+
+ homography.cpp IN opt/intel/computer_vision_sdk_18.5.445/inference_engine/samples/pedestrian_tracker_demo/src
+
+ main.cpp IN opt/intel/computer_vision_sdk_18.5.445/inference_engine/samples/pedestrian_tracker_demo
+
+ cmakelists.txt IN opt/intel/computer_vision_sdk_18.5.445/inference_engine/samples/pedestrian_tracker_demo
+
+2. change path for homography.cpp (config.txt) and main.cpp (videomap)
+
+3. Place video file in the following : 
+
+ central3.mp4 IN testing-pedestrian/intel64/release
+
+
+4. cd testing-pedestrian
+5. make pedestrian_tracker_demo
+6. export models=/opt/intel/computer_vision_sdk/deployment_tools/intel_models/
+7. cd intel64/Release
+
+8. ./pedestrian_tracker_demo                                         -i  ~/testing-pedestrian/intel64/Release/central3.mp4                                                                          -m_det  $models/person-detection-retail-0013/FP32/person-detection-retail-0013.xml                 d_det CPU                     -m_reid $models/person-reidentification-retail-0031/FP32/person-reidentification-retail-0031.xml
