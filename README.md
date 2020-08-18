@@ -1,8 +1,11 @@
-# MUST READ
+# MUST READ (Instructions)
 OpenVINO 2018 R5 Toolkit must be installed to start this project. Refer to both Documentation pdf guides (Installation & Running demo)
 
 
 OpenVINO 2018 R5 Toolkit Download Link - http://registrationcenter- download.intel.com/akdlm/irc_nas/15013/l_openvino_toolkit_p_2018.5.445.tgz
+
+Read "Run pedestrian with homography guide" before running the C++ code
+
 
 # Development-of-Social-Distancing-Alert-System
 This project uses Homography transform and OpenVINO Pedestrian Tracker Demo. Homography transform will be used to map image/video points to its corresponding real world points on the same image/video.
